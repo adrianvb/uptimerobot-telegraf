@@ -11,7 +11,7 @@ or if you are using Windows/PowerShell
 $Env:UPTIMEROBOT_KEY=xxx
 ```
 
-the included config simply get all monitors from uptimerobot and prints it to stdout. 
+the included config simply fetches all monitors from uptimerobot and outputs the state and type of the monitor and the last response time to stdout. 
 ```
 telegraf --config uptimerobot.conf --test --quiet
 ```
